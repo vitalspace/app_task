@@ -1,7 +1,7 @@
 <!-- PublicOnlyRoute.svelte -->
 <script lang="ts">
     import { navigate } from 'svelte-routing';
-    import { auth } from '../stores/auth';
+    import { auth } from '../stores/authStore';
     import { onMount } from 'svelte';
   
     export let component: any;

@@ -6,7 +6,7 @@
   import { getTasks } from "../services/task.services";
   import Task from "./TaskGroup.svelte";
   import { Link } from "svelte-routing";
-  import { profileStore } from "../stores/profile";
+  import { profileStore } from "../stores/profileStore";
 
   profileStore.initialize();
 

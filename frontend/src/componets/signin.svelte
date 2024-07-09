@@ -2,11 +2,10 @@
   import { z } from "zod";
   import { signIn } from "../services/user.services";
   import { navigate } from "svelte-routing";
-  import { auth } from "../stores/auth";
+  import { auth } from "../stores/authStore";
   import { Toast } from "flowbite-svelte";
   import { CheckCircleSolid, CloseCircleSolid } from "flowbite-svelte-icons";
   import { fade } from "svelte/transition";
-  import { profileStore } from "../stores/profile";
 
   const TOAST_DURATION = 3000;
 

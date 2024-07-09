@@ -1,6 +1,6 @@
 <script lang="ts">
   import { Link } from "svelte-routing";
-  import { auth } from "../stores/auth";
+  import { auth } from "../stores/authStore";
 
   let isAuthenticated: boolean;
 
