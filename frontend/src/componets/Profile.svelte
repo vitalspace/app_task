@@ -4,7 +4,7 @@
   import { z } from "zod";
   import { formSchema, type FormSchema } from "../schemas/profileSchema";
   import { updateProfile } from "../services/user.services";
-  import { profileStore } from "../stores/profile";
+  import { profileStore } from "../stores/profileStore";
   import { type FormData } from "../types/generalTypes";
   import History from "./History.svelte";
   import Toast from "./Toast.svelte";

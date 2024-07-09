@@ -14,7 +14,7 @@
   import Tasks from "./componets/Tasks.svelte";
 
   import { onMount } from "svelte";
-  import { auth } from "./stores/auth";
+  import { auth } from "./stores/authStore";
 
   onMount(() => {
     auth.initialize();
