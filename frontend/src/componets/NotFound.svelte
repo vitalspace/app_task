@@ -1,17 +1,11 @@
-<!-- NotFound.svelte -->
 <script>
   import { link } from "svelte-routing";
 </script>
 
-<div class="not-found">
-  <h1>404 - Página no encontrada</h1>
-  <p>Lo sentimos, la página que estás buscando no existe.</p>
-  <a href="/" use:link>Volver a la página principal</a>
+<div class="grid place-items-center h-screen">
+  <div class="text-white text-center">
+    <h1>404 - Page not found</h1>
+    <p>We're sorry, but the page you were looking for does not exist.</p>
+    <a href="/" class="underline" use:link>Go back to the main page</a>
+  </div>
 </div>
-
-<style>
-  .not-found {
-    text-align: center;
-    padding: 2rem;
-  }
-</style>
